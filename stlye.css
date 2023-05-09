@@ -101,5 +101,23 @@ table {
 }
 
 .idom {
-    
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #FBFCF8;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.forms {
+    height: 30vh;
+}
+
+.footNote {
+    height: 40vh;
 }
