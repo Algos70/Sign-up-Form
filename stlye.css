@@ -106,18 +106,40 @@ table {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
-    height: 30vh;
-    background-color: #FBFCF8;
+    height: 25vh;
+    background-color: #FFFFFF;
     padding-left: 2vw;
     padding-right: 5vw;
     font-size: 30px;
     font-weight: 800;
 }
 
+.forms > p {
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 20px;
+
+}
+
 .forms {
-    height: 30vh;
+    height: 40vh;
+    padding-right: 2vh;
+    padding-left: 2vw;
+}
+.inputs {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+input {
+    height: 3vh;
+    width: 15vw;
+    border: solid 1px black;
+    border-radius: 5px;
 }
 
 .footNote {
-    height: 40vh;
+    height: 30vh;
+    background-color: #FFFFFF;
 }
